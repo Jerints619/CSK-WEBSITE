@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#topdiv{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 30px;
+    font-size: large;
+    font-style: italic;
+    color: rgb(34, 0, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: rgb(91, 90, 7);
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(11, 114, 247);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#divmid{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#DIVMID2{
+
+    font-size: 260px;
+    margin-left: 120px;
+    margin-right: 50PX;
+    color: rgb(234, 227, 29);
+    font-style: initial;
+    
+
+}
+
+#logocsk{
+    
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    top: 40%;
+    right: 40px;
+    
+    
+
+}
+
+#csk{
+    
+    width: 100%;
+    height: 150%;
+    background-image: url(white-abstract-background-design_23-2148825582.avif);
+
+}
+
+button{
+
+    background-color: yellowgreen;
+    border-radius: 20px;
+    color: rgb(177, 56, 12);
+    border-color: yellow;
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+button:hover{
+
+    background-color: #fa8407;
+    color: blue;
+    border-radius: 5px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)10s;
+    cursor: pointer;
+    
+}
+
+#divbottom{
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+
+}
+
+#divbottomleft{
+
+   position: absolute;
+   bottom: 2%;
+   top: 640px;
+   left: 17%;
+}
+
+
+#divpicleft{
+
+   position: absolute;
+   bottom: 2%;
+   top: 640px;
+   left: 80%;
+
+}
